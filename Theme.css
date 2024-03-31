@@ -97,20 +97,20 @@ text-align:center;
 	
 }
 table, th, td {
-  border: 2px solid black;
-  overflow:auto;
+  border: 1px solid black;
+  overflow:none;
 }
 
 
 
 #inside-the-box4{ /*<!-- small div(hello box) properties -->*/
     background-color: #0000000;
-background-image: url('../images/D12.png');
+background-image: url('../images/D.png');
 	background-repeat: no-repeat;
 	background-size:cover;
     margin: auto; /*<!-- small div(hello box) can in center -->*/
     padding: 20px; /*<!-- space between  border   &  (text +button) -->*/
-    z-index:5;
+    z-index:10;
     width: 75%; /*<!-- div size -->*/
 	text-align: center;
 	
@@ -134,7 +134,7 @@ background-image: url('../images/D12.png');
 
 .body{
 	
-	background-image: url("main.jpg");
+
 	
 	
 	
